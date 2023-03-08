@@ -1,0 +1,30 @@
+<!DOCTYPE ht/ml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body >
+    <header class="gameHeader">
+        <h2 class="gameText">Guess a Number between 1 and 300</h2>
+        <button  class="gameBtn">NEW GAME</button>
+       
+    </header>
+   
+    <div class="gameBody">
+        <h3 class="gameAlert"></h3>
+        <input type="number" name="" id="gameInput" class="gameInput">
+        <h2 class="gameText"></h2>
+        <button class="gameBtn">GUESS</button>
+    </div>
+    <div>
+    <audio src="./media/audio/wrong-answer-low.mp3" id="errorLow"></audio>
+    <audio src="./media/audio/wrong-answer-high.mp3" id="errorHigh"></audio>
+    <audio src="./media/audio/correct-answer.mp3" id="correct"></audio>
+    </div>
+</body>
+</html>
